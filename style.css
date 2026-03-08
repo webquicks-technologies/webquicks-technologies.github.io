@@ -1,0 +1,142 @@
+body{
+
+font-family:'Poppins',sans-serif;
+margin:0;
+background:#0f172a;
+color:white;
+
+}
+
+/* NAVBAR */
+
+nav{
+
+display:flex;
+justify-content:space-between;
+padding:20px 60px;
+background:#020617;
+
+}
+
+nav ul{
+
+display:flex;
+list-style:none;
+gap:30px;
+
+}
+
+nav a{
+
+color:white;
+text-decoration:none;
+
+}
+
+
+/* HERO */
+
+.hero{
+
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+
+}
+
+.hero h1{
+
+font-size:48px;
+
+}
+
+.btn{
+
+background:#3b82f6;
+padding:12px 30px;
+border-radius:8px;
+text-decoration:none;
+color:white;
+
+}
+
+
+/* CARDS */
+
+.cards{
+
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:20px;
+
+}
+
+.card{
+
+background:#1e293b;
+padding:25px;
+width:250px;
+border-radius:12px;
+
+}
+
+
+/* TECH STACK */
+
+.tech{
+
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+
+}
+
+.tech span{
+
+background:#1e293b;
+padding:10px 20px;
+border-radius:8px;
+
+}
+
+
+/* PROJECTS */
+
+.projects{
+
+display:flex;
+justify-content:center;
+gap:20px;
+
+}
+
+.project{
+
+width:220px;
+height:130px;
+background:#334155;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:10px;
+
+}
+
+section{
+
+padding:80px 20px;
+text-align:center;
+
+}
+
+footer{
+
+background:#020617;
+padding:30px;
+
+}
